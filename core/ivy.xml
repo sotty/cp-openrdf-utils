@@ -18,7 +18,7 @@
 	<dependencies>
 	    <dependency org="com.google.guava" name="guava" rev="15.0" conf="compile,default,test->default"/>
 
-	    <dependency org="dfki.km.json" name="jsonld-java" rev="1.0.1-SNAPSHOT" conf="compile,default,test->default"/>
+	    <!--dependency org="dfki.km.json" name="jsonld-java" rev="1.0.1-SNAPSHOT" conf="compile,default,test->default"/-->
 
 	    <dependency org="org.openrdf.sesame" name="sesame" rev="2.7.10" conf="compile,default,test->default"/>
 
