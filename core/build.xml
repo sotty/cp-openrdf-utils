@@ -22,6 +22,7 @@
 		<ivy:info file="ivy.xml"/>
 		<ivy:makepom ivyfile="ivy.xml"
 		             pomfile="pom.xml"
+		             artifactPackaging="jar"
 		             templatefile="../pom.template">
 			<mapping conf="compile" scope="compile"/>
 			<mapping conf="default" scope="runtime"/>
